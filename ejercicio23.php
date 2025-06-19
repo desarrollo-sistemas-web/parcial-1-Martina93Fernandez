@@ -6,5 +6,12 @@
 // 🧠 Pista: Existe una función que se llama array_filter, yo la chusmearía...
 
 function filtrarPares($numeros) {
-    // Tu código aquí
+    $newArray=[];
+    foreach ($numeros as $numero){
+        if($numero %2==0){
+            $newArray[]=$numero;
+        }
+    }
+    return $newArray;
+
 }

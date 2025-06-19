@@ -5,7 +5,17 @@
 
 // 🧠 Pista: Un número primo no debe tener divisores entre 2 y sqrt($num).
 
-function esPrimo($num) {
-
-}
-
+function esPrimo($num){
+    if ($num <= 1) {
+        return false; 
+    }
+    
+    for ($i = 2; $i <= sqrt($num); $i++) {
+        if ($num % $i == 0) {
+            return false; 
+        }
+    }
+    
+    return true; 
+} 
+    

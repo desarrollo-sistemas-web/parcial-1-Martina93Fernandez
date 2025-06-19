@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/../ejercicioFiltrarPares.php';
+require_once __DIR__ . '/../ejercicio23.php';
 
 $casos = [
     [[1, 2, 3, 4, 5, 6], [2, 4, 6]],

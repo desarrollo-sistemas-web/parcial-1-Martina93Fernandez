@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/../ejercicioConvertirAMayusculas.php';
+require_once __DIR__ . '/../ejercicio21.php';
 
 $casos = [
     ["hola", "HOLA"],
